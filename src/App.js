@@ -6,6 +6,7 @@ import {Routes,Route } from "react-router-dom";
 import Catogary from './Components/Catogary';
 import Contact from './Components/Contact'
 import Services from './Components/Services'
+import Signup from './Components/Signup';
 function App() {
     return (
         <>
@@ -15,6 +16,8 @@ function App() {
              <Route path='/Catogary' element={<Catogary/>}/>
              <Route path='/Services' element={<Services/>}/>
              <Route path='/Contact' element={<Contact />}/>
+             <Route path='/Signup' element={<Signup />}/>
+
         </Routes>
         <Footer/>
         </>
